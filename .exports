@@ -1,0 +1,13 @@
+# Path
+export PATH=$PATH:$HOME/bin
+
+# History
+export HISTSIZE=10000
+export HISTFILESIZE=1000000
+export HISTTIMEFORMAT='%b %d %I:%M %p '   # using stftime format
+export HISTCONTROL=ignoreboth             # ignoredups:ignorespace
+export HISTIGNORE="history:pwd:exit:ls:ls -al:git status"
+
+# Prompts
+# \h:\W \u\$
+export PS1='\u:\W/ λ '
