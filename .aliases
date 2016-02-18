@@ -1,7 +1,12 @@
-# Shortcuts
+# Git
 alias gs='git status'
 alias ga='git add'
 alias gc='git commit'
+alias dif='git diff'
+
+# Docker
+alias dc='docker-compose'
+alias dm='docker-machine'
 
 # Make destructive commands interactive
 alias mv='mv -i'
