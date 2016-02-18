@@ -8,6 +8,9 @@ alias dif='git diff'
 alias dc='docker-compose'
 alias dm='docker-machine'
 
+# Docker
+alias dc='docker-compose'
+
 # Make destructive commands interactive
 alias mv='mv -i'
 alias cp='cp -i'
