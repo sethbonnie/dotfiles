@@ -1,0 +1,12 @@
+function r {
+  case $1 in
+  c)
+    rails console ${@: 2};;
+  g)
+    rails generate ${@: 2};;
+  n)
+    rails new ${@: 2};;
+  s)
+    rails server ${@: 2};;
+  esac
+}
