@@ -4,3 +4,5 @@ alias mkdir='mkdir -p'
 # Human readable defaults
 alias df='df -H'
 alias du='du -H'
+
+source ~/.aliases/git
