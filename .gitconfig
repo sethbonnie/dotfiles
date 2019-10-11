@@ -12,6 +12,7 @@
     f = fetch
     d = diff
     i = init
+    cl = clone
     ci = commit --verbose
     amend = commit --amend
     co = checkout
