@@ -12,6 +12,16 @@ Plugin 'gmarik/Vundle.vim'
 
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
+Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'airblade/vim-gitgutter'
+
+" Color Themes
+Plugin 'flrnprz/plastic.vim'
+Plugin 'flrnprz/candid.vim'
+Plugin 'sainnhe/edge' " Has both dark and light versions
+Plugin 'chriskempson/base16-vim'
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -49,6 +59,9 @@ filetype indent on
 " Set to auto read when a file is changed from the outside
 set autoread
 
+" Turn on line numbers
+set number
+
 " With a map leader it's possible to do extra key combinations
 " like <leader>w saves the current file
 let mapleader = ","
@@ -78,7 +91,7 @@ set cmdheight=2
 syntax enable
 
 try
-	colorscheme genericdc-light
+	colorscheme edge
 catch
 endtry
 
@@ -118,7 +131,6 @@ set tw=500
 set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
-
 
 
 """"""""""""""""""""""""""""""
