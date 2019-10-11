@@ -11,6 +11,7 @@
     b = branch
     f = fetch
     d = diff
+    i = init
     ci = commit --verbose
     amend = commit --amend
     co = checkout
